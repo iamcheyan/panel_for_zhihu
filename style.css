@@ -1,0 +1,88 @@
+body {
+	/*font-size: 16px;*/
+	/*background-color: red;*/
+}
+h1, h2, h3, h4, h5 {
+	font-size: 20px;
+}
+.zu-top {
+	position: static !important;
+}
+body.zhi {
+	padding-top: 0 !important;
+}
+.open_tools {
+	position: fixed;
+	right: auto;
+	z-index: 1;
+	margin: 0;
+	background-color:rgba(2,94,188,0.95);
+	bottom: 12px;
+	border: 1px solid #0d549b;
+	border-radius: 3px;
+	padding: 0 10px;
+	width: 562px;
+	line-height: 28px;
+	color: #fff !important;
+}
+.open_tools a{
+	color: #fff !important;
+}
+.open_tools .next_item .link {
+	display: inline-block;
+	max-width: 450px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+.open_tools * {
+	font-size: 12px
+}
+.open_tools .up {
+	display: inline-block !important;
+	/*float:none;*/
+	position: relative;
+	top: 1px;
+}
+.open_tools .next_item {
+	/*display: block;*/
+	border-top: 1px solid #0d549b;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	display: block;
+}
+.open_tools .next_item .question_link {
+	
+}
+.item-collapse.is-sticky {
+	/*margin-left: 61px;*/
+	background-color: transparent !important;
+	border-radius: none !important;
+	padding: 0 !important;
+	bottom: 44px !important;
+	transition:none !important;
+}
+
+.zh_f {
+	position: fixed;
+	left: auto;
+	top: auto;
+	bottom: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 2px 10px !important;
+	background-color: #fff;
+}
+/* 按扭位置*/
+/*a.zg-follow { bottom: 52px; }
+a[name="addcomment"]{ margin-left: 100px !important; bottom: 52px; }
+a[name="thanks"] { margin-left: 200px !important;  }
+a[name="share"] { margin-left: 100px !important; }
+a[name="favo"] { margin-left: 100px !important; display: none !important }
+a[name="nohelp"] { margin-left: 100px !important; display: none !important }
+a[name="report"] { margin-left: 100px !important; display: none !important }
+a[name="nohelp"] { margin-left: 100px !important; display: none !important }
+a.copyright { margin-left: 100px !important; display: none !important }*/

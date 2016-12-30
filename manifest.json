@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "快捷面板 for 知乎"
+   },
+   "icons": {
+      "128": "icon.png"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "style.css" ],
+      "js": [ "jquery-2.1.4.min.js", "script.js" ],
+      "matches": [ "http://www.zhihu.com/", "https://www.zhihu.com/" ]
+   } ],
+   "manifest_version": 2,
+   "name": "快捷面板 for 知乎",
+   "version": "1.0.0"
+}
